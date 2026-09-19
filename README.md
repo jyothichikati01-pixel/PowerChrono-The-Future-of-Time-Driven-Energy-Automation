@@ -1,6 +1,6 @@
 # PowerChrono
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 PowerChrono is an embedded-based, time-driven energy automation system designed to automatically control an electrical device according to predefined ON and OFF schedules.
 
@@ -12,7 +12,7 @@ The project demonstrates practical implementation of Embedded C, ARM7 microcontr
 
 ---
 
-# 🎯 Objectives
+## 🎯 Objectives
 
 - Display real-time clock information on a 16×2 LCD.
 - Display the current day, date, month, and year.
@@ -25,7 +25,7 @@ The project demonstrates practical implementation of Embedded C, ARM7 microcontr
 
 ---
 
-# ⚙️ Hardware Requirements
+## ⚙️ Hardware Requirements
 
 - LPC2148 ARM7 Microcontroller
 - 16×2 LCD Display
@@ -39,7 +39,7 @@ The project demonstrates practical implementation of Embedded C, ARM7 microcontr
 
 ---
 
-# 💻 Software Requirements
+## 💻 Software Requirements
 
 - Embedded C
 - Keil µVision
@@ -49,7 +49,7 @@ The project demonstrates practical implementation of Embedded C, ARM7 microcontr
 
 ---
 
-# 🧠 Technologies & Concepts Used
+## 🧠 Technologies & Concepts Used
 
 - Embedded C
 - ARM7 – LPC2148
@@ -65,17 +65,17 @@ The project demonstrates practical implementation of Embedded C, ARM7 microcontr
 
 ---
 
-# 🔄 Project Working
+## 🔄 Project Working
 
-1.**System Initialization** – The LPC2148 initializes the RTC, LCD, keypad, GPIO, and external interrupt.
-2.**Time Monitoring** – The RTC continuously provides the current time and date, which are displayed on the 16×2 LCD.
-3.**User Configuration** – The user presses the external switch to enter the menu and uses the keypad to set the RTC and device ON/OFF timings.
-4.**Time Comparison** – The microcontroller compares the current RTC time with the programmed ON and OFF times.
-5.**Automatic Control** – When the ON time is reached, the device is switched **ON**. When the OFF time is reached, the device is switched **OFF**.
-6.**Continuous Operation** – After completing the scheduled control, the system continues monitoring the RTC for the next cycle.
+- **System Initialization** – The LPC2148 initializes the RTC, LCD, keypad, GPIO, and external interrupt.
+- **Time Monitoring** – The RTC continuously provides the current time and date, which are displayed on the 16×2 LCD.
+- **User Configuration** – The user presses the external switch to enter the menu and uses the keypad to set the RTC and device ON/OFF timings.
+- **Time Comparison** – The microcontroller compares the current RTC time with the programmed ON and OFF times.
+- **Automatic Control** – When the ON time is reached, the device is switched **ON**. When the OFF time is reached, the device is       switched **OFF**.
+- **Continuous Operation** – After completing the scheduled control, the system continues monitoring the RTC for the next cycle.
 
 ---
-# 📋 Menu Structure
+## 📋 Menu Structure
 
 Main Menu
 
@@ -102,7 +102,7 @@ Device Timing Configuration
 
 ---
 
-# 🖥️ Project Output
+## 🖥️ Project Output
 
 ![image alter](https://github.com/jyothichikati01-pixel/PowerChrono-The-Future-of-Time-Driven-Energy-Automation/blob/dc72bf1c3069180dbae2408675ef3cf5a827de0d/WhatsApp%20Image%202026-09-19%20at%201.16.41%20PM.jpeg)
 
@@ -110,9 +110,9 @@ Device Timing Configuration
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
-'''
+,,,
 PowerChrono-main/
 │
 ├── Headerfiles/
@@ -140,10 +140,10 @@ PowerChrono-main/
 ├── set_time.c
 ├── Startup.s
 └── README.md
-'''
+,,,
 ---
 
-# 🌍 Applications
+## 🌍 Applications
 
 - Industrial automation
 - Energy management
@@ -155,7 +155,7 @@ PowerChrono-main/
 
 ---
 
-# 📌 Future Enhancements
+## 📌 Future Enhancements
 
 Possible improvements include:
 
@@ -171,7 +171,7 @@ Possible improvements include:
 
 ---
 
-# ⭐ Project Summary
+## ⭐ Project Summary
 
 PowerChrono demonstrates how an ARM7-based embedded system can combine RTC, LCD, keypad, GPIO and external interrupt functionality to create a practical time-driven automation system.
 
