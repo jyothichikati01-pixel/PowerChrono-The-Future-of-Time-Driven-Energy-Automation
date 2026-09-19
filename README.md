@@ -77,13 +77,13 @@ The project demonstrates practical implementation of Embedded C, ARM7 microcontr
 ---
 ## 📋 Menu Structure
 
-Main Menu
+### Main Menu
 
 1. EDIT RTC INFO
 2. DEVICE
 3. EXIT
 
-RTC Configuration
+### RTC Configuration
 
 1. Hour
 2. Minute
@@ -94,7 +94,7 @@ RTC Configuration
 7. Year
 8. Exit
 
-Device Timing Configuration
+### Device Timing Configuration
 
 1. ON TIME
 2. OFF TIME
@@ -106,13 +106,13 @@ Device Timing Configuration
 
 ![image alter](https://github.com/jyothichikati01-pixel/PowerChrono-The-Future-of-Time-Driven-Energy-Automation/blob/dc72bf1c3069180dbae2408675ef3cf5a827de0d/WhatsApp%20Image%202026-09-19%20at%201.16.41%20PM.jpeg)
 
-
+![image alter](https://github.com/jyothichikati01-pixel/PowerChrono-The-Future-of-Time-Driven-Energy-Automation/blob/24feb60d1924bafae01ae22805582ad3f10af66e/WhatsApp%20Image%202026-09-19%20at%201.16.03%20PM.jpeg)
 
 ---
 
 ## 📁 Project Structure
 
-,,,
+```
 PowerChrono-main/
 │
 ├── Headerfiles/
@@ -140,7 +140,7 @@ PowerChrono-main/
 ├── set_time.c
 ├── Startup.s
 └── README.md
-,,,
+```
 ---
 
 ## 🌍 Applications
