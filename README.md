@@ -74,6 +74,7 @@ The project demonstrates practical implementation of Embedded C, ARM7 microcontr
 5.**Automatic Control** – When the ON time is reached, the device is switched **ON**. When the OFF time is reached, the device is switched **OFF**.
 6.**Continuous Operation** – After completing the scheduled control, the system continues monitoring the RTC for the next cycle.
 
+---
 # 📋 Menu Structure
 
 Main Menu
@@ -103,7 +104,7 @@ Device Timing Configuration
 
 # 🖥️ Project Output
 
-https://github.com/jyothichikati01-pixel/PowerChrono-The-Future-of-Time-Driven-Energy-Automation/blob/dc72bf1c3069180dbae2408675ef3cf5a827de0d/WhatsApp%20Image%202026-09-19%20at%201.16.41%20PM.jpeg
+![image alter](https://github.com/jyothichikati01-pixel/PowerChrono-The-Future-of-Time-Driven-Energy-Automation/blob/dc72bf1c3069180dbae2408675ef3cf5a827de0d/WhatsApp%20Image%202026-09-19%20at%201.16.41%20PM.jpeg)
 
 
 
@@ -111,6 +112,7 @@ https://github.com/jyothichikati01-pixel/PowerChrono-The-Future-of-Time-Driven-E
 
 # 📁 Project Structure
 
+'''
 PowerChrono-main/
 │
 ├── Headerfiles/
@@ -138,7 +140,7 @@ PowerChrono-main/
 ├── set_time.c
 ├── Startup.s
 └── README.md
-
+'''
 ---
 
 # 🌍 Applications
