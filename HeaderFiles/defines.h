@@ -14,4 +14,3 @@ WORD=((WORD&~(15<<BITSTARTPOS))|(NIBBLE<<BITSTARTPOS))
 
 																														
 
-
